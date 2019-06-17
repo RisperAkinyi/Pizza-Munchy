@@ -59,5 +59,13 @@ nav a:hover{
     color:rgb(255, 136, 0); 
     -webkit-text-stroke: 0.5px black;
 }
+.form-control {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px 3px black;    
+  }
+
+  
+  
 
 
