@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(250, 166, 173);
+    font-family: 'Special Elite', cursive;
 }
 
 nav ul{
@@ -32,11 +33,18 @@ nav a{
 nav a:hover{
     background-color: rgb(255, 136, 0);
 }
-.container{
+#home{
     background-image: url('/images/b.jpg');
     background-size: cover;
     background-position: center;
     height: 700px;
 }
+.text{
+    text-align: center;
+    padding-top: 25%;
+    font-size: 25px;
+    color: rgb(250, 166, 173);
+    -webkit-text-stroke: 2px black;
 
+}
 
