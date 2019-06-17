@@ -43,4 +43,15 @@ order.prototype.cost = function(){
     }
 
 
+    if (this.veggyTopping === pizzaveggyTopping[0]){
+        this.prize += 100;
+    }
+    else if (this.size === pizzaveggyTopping[1]){
+        this.prize += 100;
+    }
+    else if (this.size === pizzaveggyTopping[2]){
+        this.prize += 100;
+    }
+
+
 }
