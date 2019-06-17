@@ -1,4 +1,5 @@
 var totalCosts = [];
+
 function order(size, crust, meatyTopping, veggyTopping ){
     this.size = size;
     this.crust = crust;
@@ -94,7 +95,7 @@ $(document).ready(function () {
         prompt("Location")
         prompt("Addrress")
         alert("Your charges for delivery is ksh150")
-        alert("Your order will be delivered to your location")        
+        alert("Thank you for Your Purchase!Your order will be delivered to your location")        
     });
 });
 
