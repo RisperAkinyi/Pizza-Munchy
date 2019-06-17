@@ -23,23 +23,23 @@ order.prototype.cost = function(){
     }
 
     if (this.crust === pizzaCrust[0]){
-        this.prize += 300;
+        this.prize += 100;
     }
     else if (this.size === pizzaCrust[1]){
-        this.prize += 500;
+        this.prize += 130;
     }
     else if (this.size === pizzaCrust[2]){
-        this.prize += 600;
+        this.prize += 150;
     }
 
     if (this.meatyTopping === pizzaMeatyTopping[0]){
-        this.prize += 300;
+        this.prize += 100;
     }
     else if (this.size === pizzaMeatyTopping[1]){
-        this.prize += 500;
+        this.prize += 100;
     }
     else if (this.size === pizzaMeatyTopping[2]){
-        this.prize += 600;
+        this.prize += 100;
     }
 
 
