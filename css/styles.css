@@ -64,22 +64,50 @@ nav a:hover{
     border-radius: 5px;
     box-shadow: 2px 2px 8px 3px black;    
   }
+  #totalCost{
+    background-color: rgb(255, 136, 0);
+    /* position: absolute; */
+    /* left: 30%;  */
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 5%;
+    width: 20%;
+  }
+  #delivery{
+    background-color: rgb(255, 136, 0);
+    border-radius: 10%; 
+    margin-top: 5%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 20%;
+  }
+  #textPrice{
+    box-sizing: border-box;
+    padding:30px;
+    border: 1px solid #ff8000;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px 3px black;
+    font-size: 25px;
+    color: white;    
+  }
 @media screen and (max-width:450px){
-nav li{
-    padding: 20px;
-    margin-left: 0;
-}
-.text{
-    position: absolute;
-    top: 30%;
-}
-nav ul{
-    height: 10%;
-}
+    nav li{
+        padding: 20px;
+        margin-left: 0;
+    }
+    .text{
+        position: absolute;
+        top: 30%;
+    }
+    nav ul{
+        height: 10%;
+    }
 
-nav a{
-    font-size: 15px;
-}
+    nav a{
+        font-size: 15px;
+    }
 @media screen and (max-width:1024px){
     nav li{
         padding: 20px;
