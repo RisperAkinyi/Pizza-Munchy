@@ -34,7 +34,7 @@ nav a:hover{
     background-color: rgb(255, 136, 0);
 }
 #home{
-    background-image: url('/images/b.jpg');
+    background-image: url('https://wallpapercave.com/wp/wp2381200.jpg');
     background-size: cover;
     background-position: center;
     height: 700px;
