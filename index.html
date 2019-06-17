@@ -33,51 +33,63 @@
         </div>
         <div id="order">
             <hr>
+            <form >
             <label>Pizza Size:</label>
-            <select class="form-control">
-                <option value="0">SELECT PIZZA SIZE </option><br>
-                <option value="1">LARGE KSH 600</option>
-                <option value="2">MEDIUM KSH 500</option>
-                <option value="3">SMALL KSH 300 </option>
+            <select class="form-control" id="size">
+                <option>SELECT PIZZA SIZE </option><br>
+                <option value="Large">LARGE KSH 600</option>
+                <option value="Medium">MEDIUM KSH 500</option>
+                <option value="Small">SMALL KSH 300 </option>
             </select><br><br><br><br>
             <label>Pizza Crust:</label>
-            <select class="form-control">
-                <option value="0">SELECT PIZZA CRUST </option><br>
-                <option value="1">CRISPY </option>
-                <option value="2">STUFFED </option>
-                <option value="3">GLUTEN FREE </option>
+            <select class="form-control" id="crust">
+                <option>SELECT PIZZA CRUST </option><br>
+                <option value="Crispy">CRISPY </option>
+                <option value="Stuffed">STUFFED </option>
+                <option value="Glutten-free">GLUTEN FREE </option>
             </select><br><br><br><br>
             <label>Meaty Pizza Topping;</label>
-            <select class="form-control">
-                    <option value="0">SELECT PIZZA MEATY TOPPING </option><br>
-                    <option value="1">PEPERONNI </option>
-                    <option value="2">SAUSAGE </option>
-                    <option value="3">CHICKEN </option>
+            <select class="form-control" id="meaty">
+                <option>SELECT PIZZA MEATY TOPPING </option><br>
+                <option value="Peperonni">PEPERONNI </option>
+                <option value="Sausage">SAUSAGE </option>
+                <option value="Chicken">CHICKEN </option>
             </select><br><br><br><br>
             <label>Veggy Pizza Topping;</label>
-            <select class="form-control">
-                    <option value="0">SELECT PIZZA VEGGY TOPPING </option><br>
-                    <option value="1">ONION </option>
-                    <option value="2">SPINACH </option>
-                    <option value="3">PINEAPPLE </option>
+            <select class="form-control" id="veggy">
+                <option>SELECT PIZZA VEGGY TOPPING </option><br>
+                <option value="Onion">ONION </option>
+                <option value="Spinach">SPINACH </option>
+                <option value="Pineapple">PINEAPPLE </option>
             </select><br><br><br><br>
-            <button type="button" class="btn btn-warning btn-rounded waves-effect btn-lg">Check Out!!!</button>
-           
-
-
+            <input type="submit" class="btn btn-warning btn-rounded waves-effect btn-lg" id="totalCost" value="Check
+            Out!!!" >
+            </form>
             
-           
-        <div id="contact">
-            <hr>
-            <h1>LIKE!?</h1>
-            <h3><span class="rs">For Reservation</span> call Us: <span class="rs">076543210</span> </h3>
-            <h5>pizza munch-:If gluttony is a sin, welcome to hell</h5>
+
+            <div id = "textPrice">
+                <p id="pz">pizza size</p>
+                <p id="cr">crust</p>
+                <p id="mt">meat topping</p>
+                <p id="vt">Vegetable topping</p>
+                <P id="tc">Total Cost</P>
+            </div>
+
+
+
+
+
+            <div id="contact">
+                <hr>
+                <h1>LIKE!?</h1>
+                <h3><span class="rs">For Reservation</span> call Us: <span class="rs">076543210</span> </h3>
+                <h5>pizza munch-:If gluttony is a sin, welcome to hell</h5>
+            </div>
         </div>
-    </div>
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-    
+        <script src="js/jquery-3.4.1.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+
 </body>
 
 </html>
