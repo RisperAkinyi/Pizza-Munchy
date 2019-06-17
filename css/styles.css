@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 166, 173);
+}
+
 nav ul{
     margin: 0;
     padding: 0;
@@ -10,18 +16,27 @@ nav ul{
     height: 15%;
     z-index: 1000;
     box-shadow: 0 5px 10px 1px rgb(43, 42, 42);
-  }
+    border-radius: 3%;
+}
 nav li{
     display: inline-block;
     margin-left: 15%;
     padding: 35px;
     position: relative;  
-  }
+}
 nav a{
     text-decoration: none;
     color: white;
     font-size: 25px;
-  }
+}
 nav a:hover{
     background-color: rgb(255, 136, 0);
-  }
+}
+.container{
+    background-image: url('/images/b.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+
