@@ -47,4 +47,8 @@ nav a:hover{
     -webkit-text-stroke: 2px black;
 
 }
+#contact{
+    text-align: center; 
+    letter-spacing: 3px;
+}
 
