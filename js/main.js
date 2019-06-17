@@ -85,5 +85,16 @@ $(document).ready(function () {
 
         
     }); 
+
+});
+
+$(document).ready(function () {
+    $("#delivery").click(function () { 
+        prompt("Name")
+        prompt("Location")
+        prompt("Addrress")
+        alert("Your charges for delivery is ksh150")
+        alert("Your order will be delivered to your location")        
+    });
 });
 
